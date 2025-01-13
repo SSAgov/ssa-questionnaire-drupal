@@ -1,0 +1,96 @@
+.Call,
+.SigningIn,
+.Mail {
+  margin-top: 44px;
+}
+
+.Docs {
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+
+.Call .body:last-child,
+.Docs .body:last-child,
+.Mail .body:last-child,
+.SigningIn .body:last-child {
+  margin-bottom: 0px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: var(--gray-cool-90);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.docsTitle {
+}
+
+.subTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: var(--gray-cool-90);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.body {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--gray-cool-90);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.body.noBottomMargin {
+  margin-bottom: 0px;
+}
+
+.body a {
+  color: var(--blue-60v);
+  text-decoration-line: underline;
+  transition: color 200ms ease-in;
+}
+
+.body a:hover {
+  color: var(--violet-70v);
+}
+
+.body ol {
+  padding-left: 20px;
+}
+
+.body ol li {
+  line-height: 29.2px;
+  margin-bottom: 8px;
+}
+
+.docsList {
+  list-style: none;
+  padding: 0 0 0 20px;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.docsItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.docsList .docsItem:last-child {
+  margin-bottom: 0;
+}
+
+.docsItem svg {
+  margin-right: 12px;
+  flex-shrink: 0;
+  transform: translateY(4px);
+}

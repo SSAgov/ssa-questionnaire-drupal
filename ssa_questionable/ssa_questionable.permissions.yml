@@ -1,0 +1,20 @@
+administer question types:
+  title: 'Administer question types'
+  description: 'Maintain the types of question entity.'
+  restrict access: true
+access question overview:
+  title: 'Access question overview page'
+delete any question:
+  title: Delete any question
+delete own question:
+  title: Delete own question
+create question:
+  title: Create question
+view question:
+  title: View question
+edit any question:
+  title: Edit any question
+edit own question:
+  title: Edit own question
+view own unpublished question:
+  title: 'View own unpublished question'

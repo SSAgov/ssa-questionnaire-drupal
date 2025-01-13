@@ -1,0 +1,11 @@
+.MultipleActions {
+}
+
+.actionsWrapper {
+  display: flex;
+  margin-top: 36px;
+}
+
+.actionsWrapper .actionsBtn:first-child {
+  margin-right: 8px !important;
+}

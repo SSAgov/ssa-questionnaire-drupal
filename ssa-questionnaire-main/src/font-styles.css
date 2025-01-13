@@ -1,0 +1,157 @@
+.ssa-h1,
+.ssa-h2,
+.ssa-h3,
+.ssa-h4,
+.ssa-p-body-sm,
+.ssa-p-body-md,
+.ssa-p-body-md-500,
+.ssa-p-body-md-600,
+.ssa-p-body-semibold,
+.ssa-p-body-lg,
+.ssa-p-body,
+.ssa-p-body-bold {
+  color: var(--gray-cool-90);
+}
+
+.ssa-h1 {
+  color: var(--blue-80v);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.ssa-h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.ssa-h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.ssa-h4 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.ssa-h5 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--blue-70v);
+}
+
+.ssa-h6 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--gray-cool-60);
+}
+
+.ssa-lead-text {
+  color: var(--blue-60v);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.ssa-p-body-sm {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.ssa-p-body,
+.ssa-p-body-md {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.ssa-p-body-md-500 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.ssa-p-body-md-600,
+.ssa-p-body-semibold {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.ssa-p-body-lg {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.ssa-p-body-light {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--gray-cool-60);
+}
+
+.ssa-p-body-bold {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.ssa-hyperlink {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  color: var(--blue-60v);
+}
+
+.ssa-hyperlink:visited {
+  color: var(violet-70v);
+}
+
+.ssa-ul {
+  padding-left: 30px;
+}
+
+.ssa-btn-stripped {
+  background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+
+@media (min-width: 1280px) {
+  .ssa-h1 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .ssa-h2 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .ssa-lead-text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .ssa-p-body {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .ssa-p-body-bold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+  }
+}

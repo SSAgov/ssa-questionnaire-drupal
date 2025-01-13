@@ -1,0 +1,10 @@
+entity.question_type.collection:
+  title: 'Question types'
+  parent: system.admin_structure
+  description: 'Manage and CRUD actions on Question type.'
+  route_name: entity.question_type.collection
+entity.ssa_ui_components.questions:
+  title: Questions
+  parent: ssa_ui_components.overview 
+  description: 'Administer Questions.'
+  route_name: entity.question.collection 

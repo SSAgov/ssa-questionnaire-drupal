@@ -1,0 +1,26 @@
+.textareaInput {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--gray-cool-90);
+  background: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 8px 16px;
+}
+.textareaInput:focus,
+textarea:not([disabled]).textareaInput:focus {
+  outline: 4px solid var(--blue-40v);
+  outline-offset: 4px;
+}
+
+.helpTextContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.helperText {
+  margin: 0;
+}

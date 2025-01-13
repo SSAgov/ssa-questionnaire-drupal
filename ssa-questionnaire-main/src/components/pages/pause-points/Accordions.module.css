@@ -1,0 +1,162 @@
+.Accordions {
+  margin-bottom: 32px;
+}
+
+.Accordions,
+.collapsible,
+.focused {
+  opacity: 1;
+}
+
+.trigger {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  background: none;
+  width: 100%;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  padding: 20px;
+}
+
+.trigger:hover {
+  background-color: var(--gray-cool-3);
+  color: var(--blue-60v);
+  text-decoration: none;
+}
+
+.trigger:focus,
+.trigger.open:focus {
+  position: relative;
+  outline: 4px solid var(--blue-40v);
+  outline-offset: 0;
+  background-color: white;
+  color: var(--gray-cool-90);
+  border-top: none;
+}
+
+:global(#root button:not([disabled])).trigger:focus {
+  outline-offset: 0;
+}
+
+.trigger:focus:hover,
+.trigger.open:focus:hover {
+  background-color: var(--gray-cool-3);
+  color: var(--blue-60v);
+  text-decoration: none;
+}
+
+.title {
+  margin: 0 12px 0 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: var(--gray-cool-90);
+  text-align: left;
+  transition: color 300ms ease-in-out;
+}
+
+.trigger:hover .title {
+  color: var(--blue-60v);
+}
+
+.trigger:focus .title {
+  color: var(--gray-cool-90);
+}
+
+.trigger:focus:hover .title {
+  color: var(--blue-60v);
+}
+
+/* Plus Minus */
+
+[aria-expanded='false'] .verticalLine {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+}
+
+[aria-expanded='false'] .horizontalLine {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+  opacity: 1;
+}
+
+[aria-expanded='true'] .verticalLine {
+  transition: all 500ms ease-in-out;
+  transform: rotate(90deg);
+}
+
+[aria-expanded='true'] .horizontalLine {
+  transition: all 500ms ease-in-out;
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.plusMinusOuterContainer {
+  height: 21px;
+  width: 21px;
+  margin-left: auto;
+}
+
+.plusMinusInnerContainer {
+  position: relative;
+  height: 21px;
+  width: 21px;
+}
+
+.horizontalLine {
+  position: absolute;
+  background-color: var(--gray-cool-90);
+  width: 21px;
+  height: 3px;
+  left: 50%;
+  margin-left: -10.5px;
+  top: 50%;
+  margin-top: -1.5px;
+}
+
+.verticalLine {
+  position: absolute;
+  background-color: var(--gray-cool-90);
+  width: 3px;
+  height: 21px;
+  left: 50%;
+  margin-left: -1.5px;
+  top: 50%;
+  margin-top: -10.5px;
+}
+
+.trigger:hover .horizontalLine,
+.trigger:hover .verticalLine {
+  background-color: var(--blue-60v);
+}
+
+.trigger:focus:hover .horizontalLine,
+.trigger:focus:hover .verticalLine {
+  background-color: var(--blue-60v);
+}
+
+.trigger:focus .horizontalLine,
+.trigger:focus .verticalLine {
+  background-color: var(--gray-cool-90);
+}
+
+.content {
+  padding: 24px 20px 24px 20px;
+}
+
+.content ul li,
+.content ol li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+
+.content ul li:last-child,
+.content ol li:last-child {
+  margin-bottom: 0;
+}

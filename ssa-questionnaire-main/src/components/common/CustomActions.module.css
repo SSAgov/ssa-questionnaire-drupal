@@ -1,0 +1,9 @@
+.customActionContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+[data-test='quest-type-checkboxes'] .customActionContainer {
+  margin-top: 50px;
+}

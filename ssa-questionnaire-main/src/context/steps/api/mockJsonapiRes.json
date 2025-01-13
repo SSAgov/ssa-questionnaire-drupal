@@ -1,0 +1,192 @@
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": { "self": { "href": "http://jsonapi.org/format/1.0/" } }
+    }
+  },
+  "data": [],
+  "links": {
+    "benefit--benefit": { "href": "https://beta.ssa.gov/jsonapi/benefit" },
+    "block--block": { "href": "https://beta.ssa.gov/jsonapi/block/block" },
+    "block_content--text": {
+      "href": "https://beta.ssa.gov/jsonapi/block_content/text"
+    },
+    "configurable_language--configurable_language": {
+      "href": "https://beta.ssa.gov/jsonapi/configurable_language/configurable_language"
+    },
+    "datalayer_trigger--datalayer_trigger": {
+      "href": "https://beta.ssa.gov/jsonapi/datalayer_trigger/datalayer_trigger"
+    },
+    "date_format--date_format": {
+      "href": "https://beta.ssa.gov/jsonapi/date_format/date_format"
+    },
+    "editor--editor": { "href": "https://beta.ssa.gov/jsonapi/editor/editor" },
+    "feeds_feed--latest_news": {
+      "href": "https://beta.ssa.gov/jsonapi/feeds_feed/latest_news"
+    },
+    "feeds_feed_type--feeds_feed_type": {
+      "href": "https://beta.ssa.gov/jsonapi/feeds_feed_type/feeds_feed_type"
+    },
+    "feeds_subscription--feeds_subscription": {
+      "href": "https://beta.ssa.gov/jsonapi/feeds_subscription/feeds_subscription"
+    },
+    "file--file": { "href": "https://beta.ssa.gov/jsonapi/file/file" },
+    "filter_format--filter_format": {
+      "href": "https://beta.ssa.gov/jsonapi/filter_format/filter_format"
+    },
+    "language_content_settings--language_content_settings": {
+      "href": "https://beta.ssa.gov/jsonapi/language_content_settings/language_content_settings"
+    },
+    "media--icon": { "href": "https://beta.ssa.gov/jsonapi/media/icon" },
+    "microcontent--action_link": {
+      "href": "https://beta.ssa.gov/jsonapi/microcontent/action_link"
+    },
+    "microcontent--inline_action": {
+      "href": "https://beta.ssa.gov/jsonapi/microcontent/inline_action"
+    },
+    "microcontent--news_item": {
+      "href": "https://beta.ssa.gov/jsonapi/microcontent/news_item"
+    },
+    "microcontent--site_alert": {
+      "href": "https://beta.ssa.gov/jsonapi/microcontent/site_alert"
+    },
+    "microcontent_type--microcontent_type": {
+      "href": "https://beta.ssa.gov/jsonapi/microcontent_type/microcontent_type"
+    },
+    "node--benefit_guidance": {
+      "href": "https://beta.ssa.gov/jsonapi/node/benefit_guidance"
+    },
+    "node--error_page": {
+      "href": "https://beta.ssa.gov/jsonapi/node/error_page"
+    },
+    "node--external_app": {
+      "href": "https://beta.ssa.gov/jsonapi/node/external_app"
+    },
+    "node--landing_multiple_tasks": {
+      "href": "https://beta.ssa.gov/jsonapi/node/landing_multiple_tasks"
+    },
+    "node--landing_page": {
+      "href": "https://beta.ssa.gov/jsonapi/node/landing_page"
+    },
+    "node--task_landing_q_a": {
+      "href": "https://beta.ssa.gov/jsonapi/node/task_landing_q_a"
+    },
+    "node--task_service_channel": {
+      "href": "https://beta.ssa.gov/jsonapi/node/task_service_channel"
+    },
+    "page--page": { "href": "https://beta.ssa.gov/jsonapi/page/page" },
+    "paragraph--action_item": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/action_item"
+    },
+    "paragraph--hero_card": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/hero_card"
+    },
+    "paragraph--inline_action_list": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/inline_action_list"
+    },
+    "paragraph--latest_news": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/latest_news"
+    },
+    "paragraph--link_list": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/link_list"
+    },
+    "paragraph--link_list_item": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/link_list_item"
+    },
+    "paragraph--recommended_info_list": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/recommended_info_list"
+    },
+    "paragraph--ssa_separator": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/ssa_separator"
+    },
+    "paragraph--task_context": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/task_context"
+    },
+    "paragraph--two_column": {
+      "href": "https://beta.ssa.gov/jsonapi/paragraph/two_column"
+    },
+    "path_alias--path_alias": {
+      "href": "https://beta.ssa.gov/jsonapi/path_alias/path_alias"
+    },
+    "question--eligibility": {
+      "href": "https://beta.ssa.gov/jsonapi/question/eligibility"
+    },
+    "question_type--question_type": {
+      "href": "https://beta.ssa.gov/jsonapi/question_type/question_type"
+    },
+    "self": { "href": "https://beta.ssa.gov/jsonapi" },
+    "ssa_service_channel--appt_schedule_by_phone": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/appt_schedule_by_phone"
+    },
+    "ssa_service_channel--mail": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/mail"
+    },
+    "ssa_service_channel--national_phone_auto": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/national_phone_auto"
+    },
+    "ssa_service_channel--national_phone_tech_assist": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/national_phone_tech_assist"
+    },
+    "ssa_service_channel--office_visit": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/office_visit"
+    },
+    "ssa_service_channel--online_account": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/online_account"
+    },
+    "ssa_service_channel--online_iclaim": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/online_iclaim"
+    },
+    "ssa_service_channel--online_iclaim_multiple_benefits": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/online_iclaim_multiple_benefits"
+    },
+    "ssa_service_channel--online_link": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/online_link"
+    },
+    "ssa_service_channel--phone_repayment": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel/phone_repayment"
+    },
+    "ssa_service_channel_type--ssa_service_channel_type": {
+      "href": "https://beta.ssa.gov/jsonapi/ssa_service_channel_type/ssa_service_channel_type"
+    },
+    "taxonomy_term--benefit_categories": {
+      "href": "https://beta.ssa.gov/jsonapi/taxonomy_term/benefit_categories"
+    },
+    "taxonomy_term--benefit_recipients": {
+      "href": "https://beta.ssa.gov/jsonapi/taxonomy_term/benefit_recipients"
+    },
+    "taxonomy_term--inline_alerts": {
+      "href": "https://beta.ssa.gov/jsonapi/taxonomy_term/inline_alerts"
+    },
+    "taxonomy_term--languages": {
+      "href": "https://beta.ssa.gov/jsonapi/taxonomy_term/languages"
+    },
+    "taxonomy_term--recommended_info_list": {
+      "href": "https://beta.ssa.gov/jsonapi/taxonomy_term/recommended_info_list"
+    },
+    "taxonomy_term--retirement_q_and_a_data": {
+      "href": "https://beta.ssa.gov/jsonapi/taxonomy_term/retirement_q_and_a_data"
+    },
+    "tmgmt_job--tmgmt_job": {
+      "href": "https://beta.ssa.gov/jsonapi/tmgmt_job/tmgmt_job"
+    },
+    "tmgmt_job_item--tmgmt_job_item": {
+      "href": "https://beta.ssa.gov/jsonapi/tmgmt_job_item/tmgmt_job_item"
+    },
+    "tmgmt_message--tmgmt_message": {
+      "href": "https://beta.ssa.gov/jsonapi/tmgmt_message/tmgmt_message"
+    },
+    "tmgmt_remote--tmgmt_remote": {
+      "href": "https://beta.ssa.gov/jsonapi/tmgmt_remote/tmgmt_remote"
+    },
+    "tmgmt_translator--tmgmt_translator": {
+      "href": "https://beta.ssa.gov/jsonapi/tmgmt_translator/tmgmt_translator"
+    },
+    "workflow--workflow": {
+      "href": "https://beta.ssa.gov/jsonapi/workflow/workflow"
+    },
+    "xmlsitemap--xmlsitemap": {
+      "href": "https://beta.ssa.gov/jsonapi/xmlsitemap/xmlsitemap"
+    }
+  }
+}

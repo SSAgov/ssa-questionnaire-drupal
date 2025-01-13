@@ -1,0 +1,11 @@
+name: SSA Questionable
+type: module
+description: 'Provides a question entity.'
+package: SSA
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:text
+  - drupal:views
+  - ssa_platform_core:ssa_platform_core
+configure: entity.question_type.collection

@@ -1,0 +1,23 @@
+.dateInputsWrapper {
+  display: flex;
+}
+
+.dateInputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+[id^='date-fieldset-'] .dateInputGroup .dateInput {
+  border-radius: 4px;
+  border: 1px solid var(--gray-cool-90);
+  color: var(--gray-cool-90);
+}
+
+[id^='date-fieldset-'] .dateInputGroup .dateInput:focus {
+  outline: 4px solid var(--blue-40v);
+  outline-offset: 4px;
+}
+
+[id^='date-fieldset-'] .dateInputGroup .dateInput:active {
+  border: 2px solid var(--gray-cool-90);
+}

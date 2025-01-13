@@ -1,0 +1,27 @@
+.fieldset {
+  width: 100%;
+}
+
+.fieldset .radioGroup {
+  margin-bottom: 12px;
+}
+
+.fieldset .radioGroup:last-child {
+  margin-bottom: 0;
+}
+
+.radiosInput {
+  color: var(--gray-cool-90);
+}
+
+/* Give the entire radio tile the right border color and radius */
+.radiosLabel {
+  border: 2px solid var(--gray-cool-10) !important;
+  border-radius: 4px !important;
+}
+
+@media (min-width: 1280px) {
+  .fieldset {
+    max-width: 480px;
+  }
+}

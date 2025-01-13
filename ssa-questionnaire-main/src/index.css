@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'PublicSans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PublicSans'),
+    url('./fonts/webfonts/PublicSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PublicSans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('PublicSans'),
+    url('./fonts/webfonts/PublicSans-Bold.woff') format('woff');
+}
+
+:root {
+  --main-black: #1c1d1f;
+  --blue-1: #274863;
+  --blue-2: #2378c3;
+  --gray-1: #f0f0f0;
+  --gray-cool-3: #f5f6f7;
+  --gray-cool-4: #F1F3F6;
+  --gray-cool-5: #edeff0;
+  --gray-cool-10: #dfe1e2;
+  --gray-cool-20: #c6cace;
+  --gray-cool-30: #A9AEB1;
+  --gray-cool-40: #8d9297;
+  --gray-cool-50: #71767a;
+  --gray-cool-60: #565c65;
+  --gray-cool-90: #1c1d1f;
+  --blue-40v: #2491ff;
+  --blue-50v: #0076d6;
+  --blue-60v: #005ea2;
+  --blue-70v: #0b4778;
+  --blue-80v: #112f4e;
+  --violet-70v: #54278f;
+  --cyan-5: #e7f6f8;
+  --green-cool-50v: #008817;
+  --red-cool-10v: #f8dfe2;
+  --red-50v: #e52207;
+  --gold-10v: #ffe396;
+}
+
+#root,
+#ssa-feedback-app {
+  color: var(--main-black);
+  font-style: normal;
+}
+
+.App {
+  background-color: white;
+  height: 100%;
+  overflow: auto;
+  font-style: normal;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.steps-container {
+  max-width: 768px;
+  padding: 0;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.steps-container.page {
+  padding-bottom: 0px;
+}
+
+@media (min-width: 640px) {
+  .App {
+    /* background-color: #f1f3f6; */
+  }
+
+  .steps-container {
+    padding: 0 50px 0 50px;
+  }
+
+  .steps-container.add-top-and-bottom-spacing {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+}
+
+/* ========================== */
+/* TRANSITIONS - GENERAL, FADE*/
+/* ========================== */
+.item-appear {
+  opacity: 0;
+  z-index: 1;
+}
+
+.item-appear.item-appear-active {
+  opacity: 1;
+  transition: opacity 500ms linear;
+}
+
+.item-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.item-enter.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.item-exit,
+.item-exit-done,
+.item-exit.item-exit-active {
+  display: none;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+
+/* ################### */
+
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* GLOBAL BUTTONS */
+#root button:not([disabled]):focus,
+#ssa-feedback-app button:not([disabled]):focus {
+  outline: 4px solid var(--blue-50v);
+  outline-offset: 4px;
+}
+
+/* ====================== */
+/* LIST ITEMS ANIMATIONS */
+/* ====================== */
+.li-enter {
+  opacity: 0;
+}
+.li-enter-active {
+  opacity: 1;
+  transition: opacity 200ms linear;
+}
+.li-exit {
+  opacity: 1;
+}
+.li-exit-active {
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 200ms linear;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
+
+/* ====================== */
+/* BUTTON LINK */
+/* ====================== */
+.button-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  color: var(--blue-60v);
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  transition: color 200ms ease-in;
+}
+
+.button-link:hover,
+.button-link:focus,
+.button-link.button:not([disabled]):focus,
+.button-link:visited {
+  color: var(--violet-70v);
+  outline: none !important;
+}
+
+/* Special Margins */
+#root .prevent-margin-collapse {
+  display: inline-block;
+}
+#root .margin-top-16px {
+  margin-top: 16px;
+}
+#root .margin-top-20px {
+  margin-top: 20px;
+}
+#root .margin-bottom-6px {
+  margin-bottom: 6px;
+}
+#root .margin-bottom-8px {
+  margin-bottom: 8px;
+}
+#root .margin-bottom-10px {
+  margin-bottom: 10px;
+}
+#root .margin-bottom-16px {
+  margin-bottom: 16px;
+}
+#root .margin-bottom-20px {
+  margin-bottom: 20px;
+}
+
+/* @media (min-width: 480px) {
+}
+@media (min-width: 640px) {
+}
+@media (min-width: 1024px) {
+} */

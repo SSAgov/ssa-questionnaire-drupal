@@ -1,0 +1,72 @@
+.Alert[data-test='alert-component'] {
+  margin-top: 0;
+}
+
+.Alert[data-test='alert-component']:before,
+:global(.usa-alert--info:before) {
+  background-color: var(--gray-cool-90);
+}
+
+.Alert[data-test='alert-component'].slim:global(.usa-alert--info:before),
+.Alert[data-test='alert-component'].slim:global(.usa-alert--success:before),
+.Alert[data-test='alert-component'].slim:global(.usa-alert--warning:before),
+.Alert[data-test='alert-component'].slim:global(.usa-alert--error:before) {
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Alert[data-test='alert-component']:global(.usa-alert--success) {
+  /* background-color: #ecf3ec; */
+  border-left-color: var(--green-cool-50v);
+}
+
+.Alert[data-test='alert-component']:global(.usa-alert--error) {
+  background-color: var(--red-cool-10v);
+  border-left-color: var(--red-50v);
+}
+
+.default {
+}
+
+.slim {
+}
+
+.noIcon {
+}
+
+.success {
+}
+.info {
+}
+.warning {
+}
+.error {
+}
+
+.alertTextDesktop,
+.alertTextMobile {
+  display: none;
+  color: var(--gray-cool-90);
+}
+
+.slim .alertTextDesktop,
+.noIcon .alertTextDesktop {
+  display: block;
+}
+
+.default .alertTextMobile {
+  display: block;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: 480px) {
+  .default .alertTextMobile {
+    display: none;
+  }
+
+  .default .alertTextDesktop {
+    display: block;
+  }
+}

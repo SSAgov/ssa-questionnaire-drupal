@@ -1,0 +1,26 @@
+entity.question.view:
+  title: View
+  route_name: entity.question.canonical
+  base_route: entity.question.canonical
+entity.question.edit_form:
+  title: Edit
+  route_name: entity.question.edit_form
+  base_route: entity.question.canonical
+entity.question.delete_form:
+  title: Delete
+  route_name: entity.question.delete_form
+  base_route: entity.question.canonical
+  weight: 10
+entity.question.collection:
+  title: Questions
+  route_name: entity.question.collection
+  base_route: ssa_ui_components.overview
+  weight: 10
+entity.question_type.edit_form:
+  title: Edit
+  route_name: entity.question_type.edit_form
+  base_route: entity.question_type.edit_form
+entity.question_type.collection:
+  title: List
+  route_name: entity.question_type.collection
+  base_route: entity.question_type.collection

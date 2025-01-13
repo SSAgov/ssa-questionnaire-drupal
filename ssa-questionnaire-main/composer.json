@@ -1,0 +1,13 @@
+{
+  "name": "ssa/ssa-questionnaire",
+  "description": "SSA REACT components for questionnaires",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "require": {
+  }
+} 

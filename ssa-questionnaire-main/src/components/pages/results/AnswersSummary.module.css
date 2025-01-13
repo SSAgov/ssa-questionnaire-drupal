@@ -1,0 +1,56 @@
+.AnswersSummary {
+  margin-top: 56px;
+}
+
+.AnswersSummary.withTopLine {
+  margin-top: 28px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.subTitle {
+  margin: 0 0 8px 0;
+}
+
+.questionAnswersList {
+  margin-top: 8px;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: var(--gray-cool-4);
+  border-radius: 8px;
+  padding: 20px 24px;
+}
+
+.questionAnswersList .questionAnswerItem {
+  margin-bottom: 16px;
+}
+
+.questionAnswersList .questionAnswerItem:last-child {
+  margin-bottom: 0;
+}
+
+.questionTitle {
+  margin: 0;
+}
+
+.showMoreLessBtn {
+  margin-top: 12px;
+}
+
+.editBtn {
+  margin-left: 5px;
+}
+
+.line {
+  border: 0;
+  height: 1px;
+  background: var(--gray-cool-30);
+  margin: 16px 0 16px 0;
+}
+
+.line.top {
+  margin: 0 0 24px 0;
+}

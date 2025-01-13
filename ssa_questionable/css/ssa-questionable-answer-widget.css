@@ -1,0 +1,6 @@
+.container-inline.question-multichoice-answer-elements .form-item {
+  margin: 0 3px;
+}
+.container-inline.question-multichoice-answer-elements label {
+  display: block;
+}

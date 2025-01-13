@@ -1,0 +1,72 @@
+:global(.usa-summary-box).hero {
+    background-color: var(--gray-1);
+    border: none;
+    padding: 1.5rem;
+}
+
+:global(.usa-summary-box__heading).heading {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    color: var(--blue-1);
+}
+
+.intro {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--main-black);
+}
+
+:global(.usa-alert).alert {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.alertText {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+:global(.usa-button).getStarted {
+    background-color: var(--blue-2);
+}
+
+.callForSupport {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.callHeading {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    color: var(--main-black);
+}
+
+.callItem {
+    margin: 0 0 10px 0;
+}
+
+.callLink {
+    color: var(--blue-2);
+}
+
+.returnTop {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 34px;
+}
+
+.returnTopBtn {
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    border: none;
+    text-decoration: underline;
+    color: var(--blue-2);
+    font-size: 16px;
+}

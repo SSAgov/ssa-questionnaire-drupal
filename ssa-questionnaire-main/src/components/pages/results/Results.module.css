@@ -1,0 +1,112 @@
+.EligibilityResults {
+}
+
+.NoResults {
+}
+
+.EligibilityResultsCTA {
+}
+
+.resultsCtaBody p {
+  margin-bottom: 16px;
+}
+
+.resultsCtaBody p:last-child {
+  margin-bottom: 0;
+}
+
+.title {
+  color: #274863;
+  font-size: 2.5rem;
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.eligibilityResultsTitle {
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+.subTitle {
+  color: #274863;
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.eligibilityResultsSubtitle {
+  margin-top: 38px;
+  margin-bottom: 0;
+}
+
+.categoriesList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.categoryItem {
+  margin-top: 20px;
+}
+
+.categoryItem:first-child {
+  margin-top: 0;
+}
+
+.categoryName {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.benefitsList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.benefitsList [data-test='benefit-item'] {
+  margin-bottom: 12px;
+}
+
+.benefitsList [data-test='benefit-item']:last-child {
+  margin-bottom: 0;
+}
+
+.Benefit {
+  display: flex;
+}
+
+.benefitIconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 14px;
+}
+
+.benefitIconContainer svg {
+  transform: translateY(6px);
+}
+
+.benefitContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefitTitle {
+  margin-bottom: 0;
+  margin: 0;
+}
+
+.benefitExplanation {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
+
+.resultsSummary {
+  margin-bottom: 30px;
+}
+
+.noResultsBody {
+  margin-top: 42px;
+}

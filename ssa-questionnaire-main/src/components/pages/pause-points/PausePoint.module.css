@@ -1,0 +1,29 @@
+.PausePoint {
+}
+
+.title {
+  color: var(--blue-80v);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.subTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  color: var(--gray-cool-90);
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 48px;
+    line-height: 62px;
+  }
+}

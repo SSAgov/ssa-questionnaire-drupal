@@ -1,0 +1,139 @@
+/* Change color of the checked inner radio circle - core */
+#root .usa-checkbox__input:checked + [class*='__label']::before,
+#ssa-feedback-app .usa-checkbox__input:checked + [class*='__label']::before,
+#root .usa-radio__input:checked + [class*='__label']::before,
+#ssa-feedback-app .usa-radio__input:checked + [class*='__label']::before {
+  background-color: var(--blue-40v);
+}
+
+/* Use check icon from local assets for checkboxes */
+#root .usa-checkbox__input:checked + [class*='__label']::before,
+#ssa-feedback-app .usa-checkbox__input:checked + [class*='__label']::before {
+  background-image: url('./assets/correct8.svg'),linear-gradient(transparent,transparent);
+  background-repeat: no-repeat;
+}
+
+/* Change default color of the actual radio border - second/middle ring */
+#root .usa-radio__input:checked + [class*='__label']::before,
+#ssa-feedback-app .usa-radio__input:checked + [class*='__label']::before {
+  box-shadow: 0 0 0 2px var(--blue-40v), inset 0 0 0 2px #fff;
+}
+
+/* Style radio circle outline - third ring */
+#root .usa-radio__input:focus + [class*='__label']::before,
+#ssa-feedback-app .usa-radio__input:focus + [class*='__label']::before {
+  outline: 4px solid var(--blue-40v);
+  outline-offset: 4px;
+}
+
+/* Style checkboxes outline - third ring */
+#root .usa-checkbox__input:focus + [class*='__label']::before,
+#ssa-feedback-app .usa-checkbox__input:focus + [class*='__label']::before {
+  outline: 4px solid var(--blue-40v);
+  outline-offset: 4px;
+}
+
+/* Move radio circle to the right */
+#root .usa-checkbox__label:before,
+#ssa-feedback-app .usa-checkbox__label:before,
+#root .usa-radio__label:before,
+#ssa-feedback-app .usa-radio__label:before {
+  margin-left: 5px;
+  margin-top: 6px;
+}
+
+/* Move text to the right a bit */
+#root .usa-checkbox__input--tile + [class*='__label'],
+#ssa-feedback-app .usa-checkbox__input--tile + [class*='__label'],
+#root .usa-radio__input--tile + [class*='__label'],
+#ssa-feedback-app .usa-radio__input--tile + [class*='__label'] {
+  padding: 0.75rem 1rem 0.75rem 47px;
+  color: #1b1b1b;
+}
+
+/* Style the radio tile by giving white background and blue border when checked */
+#root .usa-checkbox__input--tile:checked + [class*='__label'],
+#ssa-feedback-app .usa-checkbox__input--tile:checked + [class*='__label'],
+#root .usa-radio__input--tile:checked + [class*='__label'],
+#ssa-feedback-app .usa-radio__input--tile:checked + [class*='__label'] {
+  background-color: white !important;
+  border-color: var(--blue-40v) !important;
+}
+
+/* Move radio circle to the right a bit */
+#root .usa-checkbox__input--tile + [class*='__label']:before,
+#ssa-feedback-app .usa-checkbox__input--tile + [class*='__label']:before,
+#root .usa-radio__input--tile + [class*='__label']:before,
+#ssa-feedback-app .usa-radio__input--tile + [class*='__label']:before {
+  left: 8px;
+}
+
+/* Give radio circle the right border color */
+#root .usa-checkbox__label::before,
+#ssa-feedback-app .usa-checkbox__label::before,
+#root .usa-radio__label::before,
+#ssa-feedback-app .usa-radio__label::before {
+  box-shadow: 0 0 0 2px var(--gray-cool-90);
+}
+
+#root .usa-checkbox__input--tile + [class*='__label'],
+#ssa-feedback-app .usa-checkbox__input--tile + [class*='__label'],
+#root .usa-radio__input--tile + [class*='__label'],
+#ssa-feedback-app .usa-radio__input--tile + [class*='__label'] {
+  background-color: #fff;
+  border: 2px solid rgba(27, 27, 27, 0.3);
+  color: var(--gray-cool-90);
+}
+
+#root.usa-checkbox__input--tile + [class*='__label'],
+#ssa-feedback-app .usa-checkbox__input--tile + [class*='__label'],
+#root .usa-radio__input--tile + [class*='__label'],
+#ssa-feedback-app .usa-radio__input--tile + [class*='__label'] {
+  background-color: #fff;
+  border: 2px solid var(--gray-cool-20);
+  color: var(--gray-cool-90);
+}
+
+/* Adjust font size of radios and checkboxes */
+#root .usa-combo-box__list,
+#ssa-feedback-app .usa-combo-box__list,
+#root .usa-combo-box__input,
+#ssa-feedback-app .usa-combo-box__input,
+#root .usa-input-group,
+#ssa-feedback-app .usa-input-group,
+#root .usa-input,
+#ssa-feedback-app .usa-input,
+#root .usa-textarea,
+#ssa-feedback-app .usa-textarea,
+#root .usa-range,
+#ssa-feedback-app .usa-range,
+#root .usa-select,
+#ssa-feedback-app .usa-select,
+#root .usa-checkbox__label,
+#ssa-feedback-app .usa-checkbox__label,
+#root .usa-radio__label,
+#ssa-feedback-app .usa-radio__label,
+#root .usa-fieldset,
+#ssa-feedback-app .usa-fieldset,
+#root .usa-hint,
+#ssa-feedback-app .usa-hint {
+  font-size: 20px;
+  line-height: 32.4px;
+}
+
+/* remove the second darker ring */
+#root .usa-checkbox__input:checked + [class*='__label']::before,
+#ssa-feedback-app .usa-checkbox__input:checked + [class*='__label']::before {
+  /* background-color: #005ea2; */
+  box-shadow: 0 0 0 2px #2491ff;
+}
+
+/* Make check icon larger */
+#root .usa-checkbox__input:checked + [class*='__label']::before,
+#ssa-feedback-app .usa-checkbox__input:checked + [class*='__label']::before,
+#root .usa-checkbox__input:checked:disabled + [class*='__label']::before,
+#ssa-feedback-app
+  .usa-checkbox__input:checked:disabled
+  + [class*='__label']::before {
+  background-size: 15px auto;
+}

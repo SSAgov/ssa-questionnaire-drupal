@@ -1,0 +1,26 @@
+# Toggle between using hardcoded data vs fetching data from Drupal
+# This is a temp fix until we have the right content in Drupal
+# VITE_USE_HARDCODED_DATA = false
+VITE_USE_HARDCODED_DATA = true
+
+VITE_API_QUESTIONS_PATH = /jsonapi/question/eligibility
+
+VITE_API_ORIGIN = https://[Internal Link]
+
+# GTM ID is for development only
+# In prod, this value will not be used
+VITE_GTM_ID = GTM-MZBS96B
+
+# VITE_APP = eligibility
+# VITE_APP = replacement
+VITE_APP = feedback
+# VITE_APP = ssi
+
+# VITE_DEPLOYMENT_PLATFORM = local
+VITE_DEPLOYMENT_PLATFORM = drupal
+# VITE_DEPLOYMENT_PLATFORM = mobile_lab
+
+# Set this to true when developing locally or deploying to Mobile Lab network
+# Set it to false when building into drupal - drupal already provides global styles
+# VITE_USE_GLOBAL_STYLES = true
+VITE_USE_GLOBAL_STYLES = false

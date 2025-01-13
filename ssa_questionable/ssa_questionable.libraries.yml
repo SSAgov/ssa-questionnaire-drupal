@@ -1,0 +1,4 @@
+question_multichoice_answer:
+  css:
+    component:
+      css/question-multichoice-answer-widget.css: {}

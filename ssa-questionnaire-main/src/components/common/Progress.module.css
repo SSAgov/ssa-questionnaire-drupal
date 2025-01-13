@@ -1,0 +1,54 @@
+.progressContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.progressContainer.add-top-spacing {
+  margin-top: 16px;
+}
+
+.progressContainer :global(.progress-entire) {
+  height: 12px;
+  background: var(--gray-cool-10);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.progressContainer :global(.progress-completed) {
+  height: 12px;
+  /* width: 25%; */
+  background: var(--blue-50v);
+  transition: width 1s ease-in-out 0s;
+  border-radius: inherit;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: normal;
+}
+
+.progressBar > div > div {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.progressBar.completed > div > div {
+  border-radius: 4px !important;
+}
+
+.progressBar {
+  flex: 1;
+}
+
+.percentageContainer {
+  margin-left: 10px;
+}
+
+.percentage {
+  font-size: 16px;
+  color: var(--gray-cool-90);
+}

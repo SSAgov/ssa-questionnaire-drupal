@@ -1,0 +1,55 @@
+.stepsWrapper {
+  position: relative;
+  /* padding: 1rem; */
+  /* margin-bottom: 30px; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 0 0 20px 0;
+}
+
+.stepsWrapper.notInProd {
+  padding: 20px 24px;
+}
+
+.langToggle {
+  position: absolute;
+  top: -40px;
+  right: 0;
+}
+
+.stepId {
+  position: fixed;
+  bottom:20px;
+  right: 20px;
+  background-color: #ebebeb;
+  padding: 5px 7px;
+  border-radius: 4px;
+  opacity: 0.5;
+}
+
+.stepId span, .stepId strong {
+  color: rgb(159, 159, 159);
+}
+
+@media(min-width: 640px) {
+  .stepsWrapper {
+    padding: 0 24px 30px 24px;
+  }
+
+  .stepsWrapper.notInProd {
+    padding-top: 30px;
+  }
+}
+
+@media(min-width: 1280px) {
+  .stepsWrapper {
+    padding: 0 60px 40px 60px;
+  }
+
+  .stepsWrapper.notInProd {
+    padding-top: 30px;
+  }
+}

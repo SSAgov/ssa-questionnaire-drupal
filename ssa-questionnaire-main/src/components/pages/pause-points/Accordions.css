@@ -1,0 +1,152 @@
+.pause-point-accordions {
+}
+
+.pause-point-accordions .usa-accordion {
+}
+
+.pause-point-accordions .usa-accordion__heading {
+}
+
+.pause-point-accordions .usa-accordion__button {
+  background-color: transparent;
+  border-top: 1px solid var(--gray-cool-90);
+}
+
+.pause-point-accordions .usa-accordion__content.usa-prose {
+}
+
+.pause-point-accordions .usa-accordion__heading {
+}
+
+.pause-point-accordions .usa-accordion__heading:not(:first-child),
+.pause-point-accordions .usa-prose .usa-accordion__heading:not(:first-child) {
+  margin-top: 0px;
+}
+
+.pause-point-accordions .usa-accordion__button.last {
+  border-bottom: 1px solid var(--gray-cool-90);
+}
+
+.pause-point-accordions .usa-accordion__button.last.expanded {
+  border-bottom: none;
+}
+
+.pause-point-accordions .usa-accordion__button.expanded {
+  border-top: 4px solid var(--gray-cool-90);
+}
+
+.pause-point-accordions .usa-accordion__button.last:hover {
+  border-bottom: 1px solid var(--gray-cool-90);
+}
+.pause-point-accordions .usa-accordion__button.last.expanded:hover {
+  border-bottom: none;
+}
+
+.pause-point-accordions .usa-accordion__button {
+}
+
+.pause-point-accordions .usa-accordion__button:hover {
+  background-color: var(--gray-cool-3);
+  color: var(--blue-60v);
+  border-top: 1px solid var(--gray-cool-90);
+  text-decoration: none;
+}
+
+.pause-point-accordions .usa-accordion__button.expanded:hover {
+  border-top: 4px solid var(--gray-cool-90);
+}
+
+.pause-point-accordions .usa-accordion__button {
+  background-image: url(../../../assets/minus.svg),
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-size: 21px;
+  padding: 20px;
+}
+
+.pause-point-accordions .usa-accordion__button[aria-expanded='false'] {
+  background-image: url(../../../assets/plus.svg),
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-size: 21px;
+}
+
+.pause-point-accordions .usa-accordion__button:hover {
+  background-image: url(../../../assets/minus_blue.svg),
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-size: 21px;
+}
+
+.pause-point-accordions .usa-accordion__button[aria-expanded='false']:hover {
+  background-image: url(../../../assets/plus_blue.svg),
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-size: 21px;
+}
+
+.pause-point-accordions .usa-accordion__button:focus {
+  outline: 4px solid var(--blue-40v);
+  outline-offset: 4px;
+  background-color: white;
+  background-image: url(../../../assets/minus.svg),
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-size: 21px;
+  color: var(--gray-cool-90);
+  position: relative;
+  border: none !important;
+}
+
+.pause-point-accordions .usa-accordion__button.collapsed:focus {
+  background-image: url(../../../assets/plus.svg),
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-size: 21px;
+}
+
+.pause-point-accordions .usa-accordion__content {
+  padding: 24px 20px 24px 20px;
+}
+
+.pause-point-accordions .usa-accordion__content ul,
+.pause-point-accordions .usa-accordion__content ol {
+  padding-left: 30px;
+  margin: 0;
+}
+
+.pause-point-accordions .usa-accordion__content ul li,
+.pause-point-accordions .usa-accordion__content ol li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+
+.pause-point-accordions .usa-accordion__content ul li:last-child,
+.pause-point-accordions .usa-accordion__content ol li:last-child {
+  margin-bottom: 0;
+}
+
+.pause-point-accordions .usa-accordion__content,
+.pause-point-accordions .usa-accordion__content p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.pause-point-accordions .usa-accordion__content.usa-prose.last.expanded {
+  border-bottom: 4px solid var(--gray-cool-90);
+}
+
+.pause-point-accordions .usa-accordion__heading {
+}
+
+.pause-point-accordions .usa-accordion__button {
+}
+
+.pause-point-accordions .usa-accordion__content.usa-prose {
+}

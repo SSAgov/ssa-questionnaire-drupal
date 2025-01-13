@@ -1,0 +1,178 @@
+.ComboBox {
+  position: relative;
+}
+
+.ComboBox.hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.inputGroup {
+  margin-top: 36px;
+  width: 100%;
+}
+
+.comboBoxLabel {
+  display: block;
+  line-height: 29.2px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--gray-cool-90);
+}
+
+
+.comboBoxInputWrapper {
+  position: relative;
+  width: 100%;
+  display: inline-flex;
+  border: 1px solid var(--gray-cool-60);
+  border-radius: 4px;
+}
+
+.comboBoxInputWrapper.isOpen {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.comboBoxInput {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 14px;
+  padding-right: 60px;
+  padding-right: 105px;
+  outline-offset: 4px !important;
+  z-index: 2;
+}
+
+.comboBoxInput::placeholder {
+  font-size: 18px;
+  line-height: 29.2px;
+  color: var(--gray-cool-40);
+}
+
+.separator {
+  border-left: 1px solid var(--gray-cool-10);
+  justify-self: center;
+  align-self: center;
+  height: 30px;
+  width: 1px;
+}
+
+.comboBoxTriggerContainer {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60px;
+  width: 105px;
+  z-index: 2;
+}
+
+.comboBoxTrigger {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 11px;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.comboBoxTrigger.closeBtn {
+  padding: 9px 9px;
+}
+
+.comboBoxTrigger:focus {
+  outline: 4px solid var(--blue-40v) !important;
+  outline-offset: 2px !important;
+}
+
+.comboBoxList {
+  list-style: none;
+  padding: 4px 0 4px 0;
+  width: 100%;
+  position: absolute;
+  overflow-y: overlay;
+  opacity: 1;
+  z-index: 1;
+  background-color: white;
+  max-height: 200px;
+}
+
+.comboBoxList::-webkit-scrollbar {
+  width: 17px;
+  background: white;
+  border-radius: 4px;
+}
+
+.comboBoxList::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 2px;
+}
+
+.comboBoxList::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #c1c1c1;
+}
+
+.comboBoxList.isOpen {
+  border: 1px solid var(--gray-cool-60);
+  margin-top: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.comboBoxList .comboBoxListItem {
+  padding: 14px;
+  border-bottom: 1px solid var(--gray-cool-10);
+  cursor: pointer;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.comboBoxList .comboBoxListItem:last-child {
+  border-bottom: none;
+}
+
+.comboBoxList .comboBoxListItem.highlighted {
+  outline: 4px solid var(--blue-40v);
+}
+
+.comboBoxList .comboBoxListItem.selected {
+  background-color: var(--blue-60v);
+}
+
+.comboBoxList .comboBoxListItem.selected .dropdownOptionText {
+  /* font-weight: 600; */
+  color: white;
+}
+
+.dropdownOptionText {
+  color: var(--gray-cool-90);
+  font-size: 18px;
+}
+
+.caret {
+  transform: rotate(0deg);
+  width: 14px;
+  transition: 200ms transform ease-in;
+}
+.caret.isOpen {
+  transform: rotate(180deg);
+  transform-origin: center;
+}
+
+@media (min-width: 1280px) {
+  .inputGroup,
+  .comboBoxList {
+    max-width: 480px;
+  }
+}

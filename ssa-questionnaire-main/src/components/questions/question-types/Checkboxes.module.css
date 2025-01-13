@@ -1,0 +1,28 @@
+.fieldset {
+  width: 100%;
+}
+
+.fieldset .checkboxesGroup {
+  margin-bottom: 12px;
+}
+
+.fieldset .checkboxesGroup:last-child {
+  margin-bottom: 0;
+}
+
+.checkboxesInput {
+  color: var(--gray-cool-90);
+}
+
+/* Give the entire radio tile the right border color and radius */
+.checkboxesLabel {
+  border: 2px solid var(--gray-cool-20) !important;
+  border-radius: 4px !important;
+  font-size: 20px;
+}
+
+@media (min-width: 1280px) {
+  .fieldset {
+    max-width: 480px;
+  }
+}

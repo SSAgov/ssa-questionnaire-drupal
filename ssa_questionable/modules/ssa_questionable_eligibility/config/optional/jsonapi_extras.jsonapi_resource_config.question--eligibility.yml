@@ -1,0 +1,148 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - ssa_questionable.question_type.eligibility
+id: question--eligibility
+disabled: false
+path: question/eligibility
+resourceType: question--eligibility
+resourceFields:
+  qid:
+    fieldName: qid
+    publicName: qid
+    enhancer:
+      id: ''
+    disabled: false
+  uuid:
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+    disabled: false
+  revision_id:
+    disabled: true
+    fieldName: revision_id
+    publicName: revision_id
+    enhancer:
+      id: ''
+  langcode:
+    disabled: true
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  bundle:
+    disabled: true
+    fieldName: bundle
+    publicName: bundle
+    enhancer:
+      id: ''
+  revision_timestamp:
+    disabled: true
+    fieldName: revision_timestamp
+    publicName: revision_timestamp
+    enhancer:
+      id: ''
+  revision_uid:
+    disabled: true
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+  revision_log:
+    disabled: true
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+  question_id:
+    fieldName: question_id
+    publicName: question_id
+    enhancer:
+      id: ''
+    disabled: false
+  question_text:
+    fieldName: question_text
+    publicName: title
+    enhancer:
+      id: ''
+    disabled: false
+  answers:
+    fieldName: answers
+    publicName: answers
+    enhancer:
+      id: ''
+    disabled: false
+  question_help:
+    fieldName: question_help
+    publicName: subTitle
+    enhancer:
+      id: ''
+    disabled: false
+  question_context:
+    fieldName: question_context
+    publicName: info
+    enhancer:
+      id: ''
+    disabled: false
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  uid:
+    disabled: true
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+  created:
+    disabled: true
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: true
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  default_langcode:
+    disabled: true
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+  revision_default:
+    disabled: true
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+  revision_translation_affected:
+    disabled: true
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+  scheduled_transition_date:
+    disabled: true
+    fieldName: scheduled_transition_date
+    publicName: scheduled_transition_date
+    enhancer:
+      id: ''
+  scheduled_transition_state:
+    disabled: true
+    fieldName: scheduled_transition_state
+    publicName: scheduled_transition_state
+    enhancer:
+      id: ''
+  metatag:
+    disabled: true
+    fieldName: metatag
+    publicName: metatag
+    enhancer:
+      id: ''

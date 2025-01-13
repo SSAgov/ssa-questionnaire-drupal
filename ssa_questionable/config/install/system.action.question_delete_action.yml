@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ssa_questionable
+id: question_delete_action
+label: 'Delete question'
+type: question
+plugin: entity:delete_action:question
+configuration: {  }

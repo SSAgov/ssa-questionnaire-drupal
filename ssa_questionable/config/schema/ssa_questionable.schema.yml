@@ -1,0 +1,11 @@
+# Default value.
+field.value.question_multichoice_answer:
+  type: mapping
+  label: Default value
+  mapping:
+    id:
+      type: integer
+      label: ID
+    title:
+      type: string
+      label: Answer Text

@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall hooks for SSA Questionable Eligibility module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function ssa_questionable_eligibility_install($is_syncing) {
+  if (!$is_syncing) {
+    /** @var \Drupal\workflows\entity\Workflow $workflow */
+    $workflow = \Drupal::entityTypeManager()
+      ->getStorage('workflow')
+      ->load('editorial');
+    $workflow->getTypePlugin()
+      ->addEntityTypeAndBundle('question', 'eligibility');
+    $workflow->save();
+  }
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function ssa_questionable_eligibility_uninstall($is_syncing) {
+  if (!$is_syncing) {
+    /** @var \Drupal\workflows\entity\Workflow $workflow */
+    $workflow = \Drupal::entityTypeManager()
+      ->getStorage('workflow')
+      ->load('editorial');
+    $workflow->getTypePlugin()
+      ->removeEntityTypeAndBundle('question',
+        'eligibility');
+    $workflow->save();
+  }
+}

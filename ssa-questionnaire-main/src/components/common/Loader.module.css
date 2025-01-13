@@ -1,0 +1,126 @@
+.QuestionLoader {
+  padding: 3px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.progressBarContainer {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.progressBarSvg {
+  width: 100%;
+  height: 100%;
+  height: 12px;
+}
+
+.progressBarRect {
+  width: 100%;
+  height: 12px;
+}
+
+.titleContainer {
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.titleSvg {
+  width: 100%;
+  height: 31.19px;
+}
+
+.titleRect {
+  width: 465px;
+  height: 31.19px;
+}
+
+.tiles {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tileContainer {
+  width: 100%;
+}
+
+.tileSvg {
+  width: 100%;
+  height: 60px;
+}
+
+.tileRect {
+  width: 100%;
+  height: 60px;
+}
+
+.tiles .tileContainer {
+  margin-bottom: 12px;
+}
+.tiles .tileContainer:last-child {
+  margin-bottom: 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 62px;
+}
+
+.actions .actionContainer {
+  margin-bottom: 8px;
+}
+
+.actions .actionContainer:last-child {
+  margin-bottom: 0;
+}
+
+.actionContainer {
+  /* width: 100%; */
+}
+
+.actionSvg,
+.actionRect {
+  width: 100%;
+  height: 51.19px;
+}
+
+@media (min-width: 640px) {
+  .actions {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .actionContainer {
+    width: fit-content;
+  }
+
+  .actions .actionContainer {
+    margin-bottom: 0;
+    margin-right: 8px;
+  }
+  .actions .actionContainer:last-child {
+    margin-right: 0;
+  }
+
+  .prevBtn,
+  .prevBtn .actionRect {
+    width: 118px;
+  }
+
+  .nextBtn,
+  .nextBtn .actionRect {
+    width: 180px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .tiles {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+  }
+}

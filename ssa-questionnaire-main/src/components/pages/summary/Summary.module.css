@@ -1,0 +1,42 @@
+.title {
+  color: #274863;
+  font-size: 2.5rem;
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.subTitle {
+  color: #171716;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.questionAnswersList {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.questionAnswerItem {
+    margin-bottom: 20px;
+}
+
+.questionTitle {
+  line-height: 1.6 !important;
+}
+
+.answerText {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.answerText::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+export const globalEs = {
+  english: 'ingles',
+  spanish: 'español',
+  next: 'siguiente',
+  previous: 'previo',
+  month: 'mes',
+  day: 'día',
+  year: 'año',
+  and: 'y',
+  submit: 'submit',
+  return_to_top: 'Return to top',
+  call_us: `Llámenos si tiene preguntas o cree que puede tener derecho a los beneficios.`,
+  call_us_phone_number: `Llame al <a href="tel:+18007721213" class="ssa-hyperlink">1-800-772-1213</a> y oprima 7 para español`,
+  call_us_phone_number_tty: `Llame al <a href="tel:+18003250778" class="ssa-hyperlink">TTY 1-800-325-0778</a> si es sordo o tiene problemas de audición`,
+};

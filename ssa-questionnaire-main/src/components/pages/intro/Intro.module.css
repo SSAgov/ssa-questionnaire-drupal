@@ -1,0 +1,41 @@
+.heading {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+    color: var(--blue-1);
+}
+
+.intro {
+    font-size: 22px;
+    line-height: 35px;
+    color: var(--blue-1);
+}
+
+.instructions {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--main-black);
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+:global(.usa-button).next {
+    background-color: var(--blue-2);
+    margin-right: 0;
+}
+
+:global(.usa-button).back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    margin-top: 20px;
+    color: var(--blue-2);
+    font-size: 16px;
+}

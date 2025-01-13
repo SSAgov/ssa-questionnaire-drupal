@@ -1,0 +1,1 @@
+export const YES_BUT_SEPARATED = '1';

@@ -1,0 +1,11 @@
+question.type_add:
+  route_name: entity.question_type.add_form
+  title: 'Add question type'
+  appears_on:
+    - entity.question_type.collection
+
+question.add_page:
+  route_name: entity.question.add_page
+  title: 'Add question'
+  appears_on:
+    - entity.question.collection
